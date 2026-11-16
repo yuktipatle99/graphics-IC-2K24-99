@@ -23,7 +23,7 @@ int main() {
     float x = x1;
     float y = y1;
 
-    // Pixel-by-pixel line plot karna
+    
     for (int i = 0; i <= steps; i++) {
         putpixel(round(x), round(y), WHITE);
         x += x_inc;
